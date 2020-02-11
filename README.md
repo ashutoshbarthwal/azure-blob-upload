@@ -15,11 +15,11 @@ node-app
 │        │   
 │        └───controllers
 │            │ 
-│            │ SASController.js
+│            │ AzureController.js
 │
 └───services
     │ 
-    │ SASService.js
+    │ AzureService.js
 
 react-app
 |
