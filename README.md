@@ -82,3 +82,7 @@ npm --prefix node-app install | yarn --cwd react-app install
 ````sh 
 npm --prefix react-app run start | npm --prefix node-app run startM
 ````
+
+## TODO 
+
+Dokcerize the app :D
