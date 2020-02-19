@@ -70,17 +70,44 @@ git clone https://github.com/ashutoshbarthwal/azure-blob-upload.git
 ````sh
 cd azure-blob-upload
 ````
+3 update <code>node-app/config/azure.js</code>
 
-3 install required packages
+````
+
+ /*
+  |--------------------------------------------------------------------------
+  | Azure Account Name
+  |--------------------------------------------------------------------------
+  */
+  account: 'ACCOUNT_NAME',
+
+  /*
+  |--------------------------------------------------------------------------
+  | Azure Account Key
+  |--------------------------------------------------------------------------
+  */
+  accountKey: 'ACCOUNT_KEY',
+
+  /*
+  |--------------------------------------------------------------------------
+  | Connection String
+  |--------------------------------------------------------------------------
+  */
+  connectionString: 'CONNECTION_STRING',
+  
+
+````
+
+4 install required packages
 
 ````sh
 npm --prefix node-app install | yarn --cwd react-app install
 ````
 
-4 quick run 
+## Run via npm 
 
 ````sh 
-npm --prefix react-app run start | npm --prefix node-app run startM
+npm --prefix react-app run start | npm --prefix node-app run start
 ````
 
 ## Run via Docker
