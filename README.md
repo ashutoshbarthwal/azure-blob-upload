@@ -83,6 +83,10 @@ npm --prefix node-app install | yarn --cwd react-app install
 npm --prefix react-app run start | npm --prefix node-app run startM
 ````
 
-## TODO 
+## Run via Docker
 
-Dokcerize the app :D
+````sh
+
+docker-compose up --build
+
+````
